@@ -1,0 +1,47 @@
+*{
+	font-family: "Qumberland Slab";
+}
+.header{
+	position: fixed;
+	width: 100%;
+}
+.content{
+	padding-top: 50px;
+}
+div.slider{
+	border: 1px silver;
+}
+#nav-line{
+	border-bottom: 1px solid silver;
+}
+a.nav-link{
+	font-size: 20px;
+}
+button.btn{
+	width: 170px;
+	height: 70px;
+}
+button.btn-primary a{
+	color: white;
+}
+button.btn-primary-soft a{
+	color: #3366FF;
+}
+a.display-4{
+	color: blue;
+	text-decoration: none;
+}
+h3.display-6{
+	color: #3366FF;
+}
+h3.display-5{
+	color: #3366FF;
+}
+p{
+	font-size: 18px;
+	color: silver;
+}
+blockquote{
+	font-style: italic;
+	font-size: 18px;
+}
