@@ -1,21 +1,9 @@
 *{
-	font-family: "Qumberland Slab";
+	font-family: "Helvetica";
 }
-.header{
-	position: fixed;
-	width: 100%;
-}
-.content{
-	padding-top: 50px;
-}
-div.slider{
-	border: 1px silver;
-}
-#nav-line{
-	border-bottom: 1px solid silver;
-}
-a.nav-link{
-	font-size: 20px;
+
+.nav-item{
+
 }
 button.btn{
 	width: 170px;
@@ -27,7 +15,7 @@ button.btn-primary a{
 button.btn-primary-soft a{
 	color: #3366FF;
 }
-a.display-4{
+h1 a{
 	color: blue;
 	text-decoration: none;
 }
