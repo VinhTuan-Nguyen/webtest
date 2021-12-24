@@ -21,3 +21,27 @@ p{
 p.em{
 	font-size: 0.85em;
 }
+div ul {
+	padding: 0px;
+}
+.social-link ul li{
+	padding-right: 20px;
+	list-style: none;
+	float: left;
+}
+.footer-link ul li{
+	padding-top: 20px;
+	list-style: none;
+	text-decoration: none;
+}
+.footer-link ul li a{
+	color: gray;
+	text-decoration: none;
+}
+.footer-link ul li a:hover{
+	color: #3366FF;
+}
+ul li a img{
+	width: 25px;
+	height: 25px;
+}
