@@ -1,6 +1,11 @@
 *{
 	font-family: "Helvetica";
 }
+.background{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 button.btn{
 	width: 170px;
 	height: 70px;
