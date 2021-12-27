@@ -49,3 +49,58 @@ ul li a img{
 	width: 25px;
 	height: 25px;
 }
+.box-content{
+	padding: 25% 4% ;
+	position: relative;
+	z-index: 2;
+}
+.layerhide{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	position: absolute;
+	width: 325px;
+	height: 300px;
+	z-index: 1;
+}
+.layer-blue{
+	background-color: #3366FF;
+	opacity: 80%;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-landings{
+	width: 650px;
+	height: 300px;
+}
+.dropdown-pages{
+	width: 600px;
+}
+.dropdown-account{
+	width: 200px;
+}
+.dropdown-content {
+	border-radius: 10px;
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 2;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-link{
+	padding: 7% 3%;
+}
+.dropdown-link ul li{
+	margin-top: 2px;
+	list-style: none;
+}
+.dropdown-link ul li a{
+	color: gray;
+	text-decoration: none;
+}
+.dropdown-link ul li a:hover{
+	color: #3366FF;
+}
